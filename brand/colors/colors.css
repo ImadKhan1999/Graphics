@@ -1,0 +1,69 @@
+/**
+ * ImadLabs Official Design Tokens - CSS Custom Properties
+ * Brand: ImadLabs
+ * Concept: The Dynamic Nexus Monogram (Concept 03)
+ */
+
+:root {
+  /* Brand Core */
+  --imad-color-primary: #0066FF;
+  --imad-color-secondary: #00F5D4;
+  --imad-color-accent: #38BDF8;
+
+  /* Brand Gradients */
+  --imad-gradient-brand: linear-gradient(135deg, #00F5D4 0%, #0066FF 100%);
+  --imad-gradient-brand-subtle: linear-gradient(135deg, rgba(0, 245, 212, 0.12) 0%, rgba(0, 102, 255, 0.08) 100%);
+
+  /* Dark Theme (Default) */
+  --imad-bg: #070B14;
+  --imad-surface: #0B0F19;
+  --imad-surface-card: #111827;
+  --imad-surface-hover: #162032;
+  --imad-border: #1E293B;
+  --imad-border-focus: #38BDF8;
+
+  --imad-text-primary: #F8FAFC;
+  --imad-text-secondary: #94A3B8;
+  --imad-text-muted: #64748B;
+
+  /* Semantics */
+  --imad-success: #10B981;
+  --imad-warning: #F59E0B;
+  --imad-error: #EF4444;
+  --imad-info: #0066FF;
+
+  --imad-success-bg: rgba(16, 185, 129, 0.15);
+  --imad-warning-bg: rgba(245, 158, 11, 0.15);
+  --imad-error-bg: rgba(239, 68, 68, 0.15);
+  --imad-info-bg: rgba(0, 102, 255, 0.15);
+
+  /* Elevation Shadows */
+  --imad-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --imad-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --imad-shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.5);
+  --imad-shadow-glow: 0 0 25px rgba(0, 245, 212, 0.25);
+}
+
+[data-theme="light"],
+.theme-light {
+  --imad-bg: #F8FAFC;
+  --imad-surface: #FFFFFF;
+  --imad-surface-card: #F1F5F9;
+  --imad-surface-hover: #E2E8F0;
+  --imad-border: #E2E8F0;
+  --imad-border-focus: #0066FF;
+
+  --imad-text-primary: #0F172A;
+  --imad-text-secondary: #475569;
+  --imad-text-muted: #94A3B8;
+
+  --imad-success-bg: #D1FAE5;
+  --imad-warning-bg: #FEF3C7;
+  --imad-error-bg: #FEE2E2;
+  --imad-info-bg: #DBEAFE;
+
+  --imad-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --imad-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --imad-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --imad-shadow-glow: 0 0 20px rgba(0, 102, 255, 0.15);
+}

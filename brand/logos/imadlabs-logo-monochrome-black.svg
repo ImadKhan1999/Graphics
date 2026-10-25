@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400"><rect width="100%" height="100%" fill="#FFFFFF"/><g transform="translate(90, 85)"><g transform="scale(1.05)">
+        <!-- Monochrome HexaCore -->
+        <g id="hexacore-mono">
+            <polygon points="100,20 180,66 100,112 20,66" fill="#000000" opacity="0.9"/>
+            <polygon points="20,76 100,122 100,212 20,166" fill="#000000" opacity="0.6"/>
+            <polygon points="100,122 180,76 180,166 100,212" fill="#000000" opacity="0.4"/>
+            <circle cx="100" cy="76" r="14" fill="#FFFFFF"/>
+            <path d="M 100 120 L 100 182 L 152 152" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </g>
+        </g><g transform="translate(250, 120)"><text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="68" font-weight="800" fill="#000000">Imad<tspan fill="#000000">Labs</tspan></text><text x="2" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="700" letter-spacing="4.8" fill="#000000">SOFTWARE STUDIO</text></g></g></svg>

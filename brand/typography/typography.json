@@ -1,0 +1,110 @@
+{
+  "typography": {
+    "fonts": {
+      "headings": {
+        "family": "'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif",
+        "description": "Geometric modern sans-serif with high personality, clean apex angles, and crisp legibility at large display sizes.",
+        "license": "SIL Open Font License (OFL)",
+        "weights": {
+          "semi_bold": 600,
+          "bold": 700,
+          "extra_bold": 800
+        }
+      },
+      "body": {
+        "family": "'Inter', 'Segoe UI', -apple-system, sans-serif",
+        "description": "World-standard UI and prose font designed specifically for screens and cross-platform clarity.",
+        "license": "SIL Open Font License (OFL)",
+        "weights": {
+          "regular": 400,
+          "medium": 500,
+          "semi_bold": 600
+        }
+      },
+      "code_mono": {
+        "family": "'JetBrains Mono', 'Fira Code', 'Consolas', monospace",
+        "description": "Developer-first monospace font for technical parameters, version numbers, terminal readouts, and API documentation.",
+        "license": "SIL Open Font License (OFL)",
+        "weights": {
+          "regular": 400,
+          "medium": 500,
+          "bold": 700
+        }
+      }
+    },
+    "scale": {
+      "display": {
+        "size": "48px",
+        "line_height": "56px",
+        "letter_spacing": "-0.02em",
+        "weight": 800
+      },
+      "h1": {
+        "size": "36px",
+        "line_height": "44px",
+        "letter_spacing": "-0.02em",
+        "weight": 800
+      },
+      "h2": {
+        "size": "28px",
+        "line_height": "36px",
+        "letter_spacing": "-0.015em",
+        "weight": 700
+      },
+      "h3": {
+        "size": "22px",
+        "line_height": "30px",
+        "letter_spacing": "-0.01em",
+        "weight": 700
+      },
+      "h4": {
+        "size": "18px",
+        "line_height": "26px",
+        "letter_spacing": "0em",
+        "weight": 600
+      },
+      "body_lg": {
+        "size": "16px",
+        "line_height": "24px",
+        "letter_spacing": "0em",
+        "weight": 400
+      },
+      "body_base": {
+        "size": "14px",
+        "line_height": "20px",
+        "letter_spacing": "0em",
+        "weight": 400
+      },
+      "body_sm": {
+        "size": "12px",
+        "line_height": "16px",
+        "letter_spacing": "0.01em",
+        "weight": 400
+      },
+      "caption": {
+        "size": "11px",
+        "line_height": "14px",
+        "letter_spacing": "0.02em",
+        "weight": 500
+      },
+      "badge": {
+        "size": "11px",
+        "line_height": "14px",
+        "letter_spacing": "0.08em",
+        "weight": 700,
+        "text_transform": "uppercase"
+      }
+    },
+    "rules": {
+      "brand_name_spelling": "ImadLabs (Capital I, lowercase m-a-d, Capital L, lowercase a-b-s, exactly one word, no space, no hyphen)",
+      "logo_clear_space": "1.0X where X equals the height of the dynamic diamond photon satellite",
+      "minimum_sizes": {
+        "horizontal_logo_digital": "120px width",
+        "horizontal_logo_print": "25mm width",
+        "symbol_digital": "16px x 16px",
+        "symbol_print": "5mm x 5mm"
+      },
+      "contrast_ratio": "WCAG AAA 7:1 for normal body text, WCAG AA 4.5:1 for large display headings"
+    }
+  }
+}

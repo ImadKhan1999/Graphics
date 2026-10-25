@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ImadLabs App Branding Template Editor</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #070B14; color: #F8FAFC; font-family: 'Plus Jakarta Sans', sans-serif; padding: 40px; }
+h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px; }
+h1 span { color: #00F5A0; }
+.subtitle { color: #94A3B8; margin-bottom: 40px; font-size: 16px; }
+.layout { display: grid; grid-template-columns: 320px 1fr; gap: 32px; }
+.panel { background: #111827; border: 1px solid #1E293B; border-radius: 16px; padding: 24px; }
+.panel h2 { font-size: 16px; font-weight: 700; color: #94A3B8; margin-bottom: 20px; letter-spacing: 2px; text-transform: uppercase; }
+label { display: block; font-size: 13px; color: #64748B; margin-bottom: 6px; margin-top: 16px; }
+input, textarea { width: 100%; background: #0B0F19; border: 1px solid #1E293B; border-radius: 8px; color: #F8FAFC; padding: 10px 14px; font-size: 15px; font-family: inherit; outline: none; }
+input:focus, textarea:focus { border-color: #00F5A0; }
+textarea { height: 80px; resize: vertical; }
+.preview-wrap { background: #070B14; border: 1px solid #1E293B; border-radius: 16px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 600px; }
+.preview-canvas { width: 600px; height: 600px; background: linear-gradient(135deg, #070B14, #0B1520); border-radius: 12px; position: relative; overflow: hidden; }
+.hex-badge { position: absolute; bottom: 30px; right: 30px; opacity: 0.7; }
+.wordmark { position: absolute; top: 30px; left: 30px; font-size: 18px; font-weight: 800; }
+.wordmark .labs { color: #00F5A0; }
+.app-icon-slot { width: 180px; height: 180px; background: #111827; border: 2px dashed #1E293B; border-radius: 40px; display: flex; align-items: center; justify-content: center; color: #64748B; font-size: 13px; margin: 0 auto 24px; cursor: pointer; position: relative; overflow: hidden; }
+.app-icon-slot img { width: 100%; height: 100%; object-fit: cover; border-radius: 38px; }
+.app-name-text { font-size: 42px; font-weight: 800; text-align: center; margin-bottom: 8px; }
+.app-tag-text { font-size: 18px; color: #94A3B8; text-align: center; margin-bottom: 16px; }
+.version-badge { display: inline-block; padding: 6px 18px; border: 1.5px solid #00F5A0; border-radius: 20px; color: #00F5A0; font-family: 'JetBrains Mono', monospace; font-size: 16px; text-align: center; margin: 0 auto 20px; }
+.features-list { padding: 0 20px; }
+.feat-item { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 16px; color: #94A3B8; }
+.feat-dot { width: 8px; height: 8px; border-radius: 50%; background: #00F5A0; flex-shrink: 0; }
+.app-content { padding: 30px; display: flex; flex-direction: column; height: 100%; }
+.center { text-align: center; }
+</style>
+</head>
+<body>
+<h1>ImadLabs <span>App Branding</span> Template Editor</h1>
+<p class="subtitle">Fill in the fields below to generate your app announcement graphic</p>
+<div class="layout">
+  <div class="panel">
+    <h2>App Details</h2>
+    <label>App Name</label>
+    <input type="text" id="appName" value="My App" oninput="updatePreview()">
+    <label>Tagline</label>
+    <input type="text" id="tagline" value="Your App Tagline Here" oninput="updatePreview()">
+    <label>Version</label>
+    <input type="text" id="version" value="v1.0.0" oninput="updatePreview()">
+    <label>Feature 1</label>
+    <input type="text" id="feat1" value="Amazing new feature" oninput="updatePreview()">
+    <label>Feature 2</label>
+    <input type="text" id="feat2" value="Blazing fast performance" oninput="updatePreview()">
+    <label>Feature 3</label>
+    <input type="text" id="feat3" value="Beautiful redesign" oninput="updatePreview()">
+    <label>App Icon (click to upload)</label>
+    <div class="app-icon-slot" id="iconSlot" onclick="document.getElementById('iconInput').click()">
+      <span id="iconPlaceholder">Click to upload icon</span>
+      <img id="iconPreview" style="display:none">
+    </div>
+    <input type="file" id="iconInput" accept="image/*" style="display:none" onchange="loadIcon(this)">
+  </div>
+  <div class="panel">
+    <h2>Preview</h2>
+    <div class="preview-wrap">
+      <div class="preview-canvas" id="previewCanvas">
+        <div class="wordmark">Imad<span class="labs">Labs</span></div>
+        <div class="app-content">
+          <div style="height:30px"></div>
+          <div class="app-icon-slot" style="pointer-events:none;border-style:solid" id="previewIcon">
+            <span style="color:#64748B;font-size:13px">APP ICON</span>
+          </div>
+          <div class="app-name-text" id="prevName">My App</div>
+          <div class="app-tag-text" id="prevTag">Your App Tagline Here</div>
+          <div class="center"><div class="version-badge" id="prevVer">v1.0.0</div></div>
+          <div class="features-list">
+            <div class="feat-item"><div class="feat-dot"></div><span id="prevFeat1">Amazing new feature</span></div>
+            <div class="feat-item"><div class="feat-dot" style="background:#00FFC2"></div><span id="prevFeat2">Blazing fast performance</span></div>
+            <div class="feat-item"><div class="feat-dot" style="background:#38BDF8"></div><span id="prevFeat3">Beautiful redesign</span></div>
+          </div>
+        </div>
+        <div class="hex-badge">
+          <svg width="60" height="80" viewBox="0 0 200 232">
+            <defs>
+              <linearGradient id="t" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#0284C7"/></linearGradient>
+              <linearGradient id="l" x1="100%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0284C7"/><stop offset="100%" stop-color="#0066FF"/></linearGradient>
+              <linearGradient id="r" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#003DB3"/></linearGradient>
+            </defs>
+            <polygon points="100,20 180,66 100,112 20,66" fill="url(#t)"/>
+            <polygon points="20,76 100,122 100,212 20,166" fill="url(#l)"/>
+            <polygon points="100,122 180,76 180,166 100,212" fill="url(#r)"/>
+            <circle cx="100" cy="76" r="14" fill="#00FFC2"/>
+            <circle cx="100" cy="76" r="7" fill="white" opacity="0.9"/>
+            <path d="M100,120 L100,182 L152,152" stroke="#00F5A0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <circle cx="152" cy="152" r="5.5" fill="#00FFC2"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function updatePreview() {
+  document.getElementById('prevName').textContent = document.getElementById('appName').value || 'My App';
+  document.getElementById('prevTag').textContent = document.getElementById('tagline').value || 'Tagline';
+  document.getElementById('prevVer').textContent = document.getElementById('version').value || 'v1.0.0';
+  document.getElementById('prevFeat1').textContent = document.getElementById('feat1').value;
+  document.getElementById('prevFeat2').textContent = document.getElementById('feat2').value;
+  document.getElementById('prevFeat3').textContent = document.getElementById('feat3').value;
+}
+function loadIcon(input) {
+  if (input.files && input.files[0]) {
+    const reader = new FileReader();
+    reader.onload = e => {
+      const img = document.getElementById('iconPreview');
+      const ph = document.getElementById('iconPlaceholder');
+      const prev = document.getElementById('previewIcon');
+      img.src = e.target.result;
+      img.style.display = 'block';
+      ph.style.display = 'none';
+      prev.innerHTML = '<img src="' + e.target.result + '" style="width:100%;height:100%;object-fit:cover;border-radius:38px">';
+    };
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+</script>
+</body>
+</html>

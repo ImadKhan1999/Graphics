@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="70%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="top-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F5A0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00F5A0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hc-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="hc-left" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="hc-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#003DB3"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg-grad)"/>
+  <rect width="1080" height="300" fill="url(#top-grad)"/>
+
+  <!-- Grid accent lines -->
+  <line x1="0" y1="200" x2="1080" y2="200" stroke="#00F5A0" stroke-width="1" opacity="0.15"/>
+  <line x1="0" y1="880" x2="1080" y2="880" stroke="#00F5A0" stroke-width="1" opacity="0.15"/>
+  <line x1="200" y1="0" x2="200" y2="1080" stroke="#00F5A0" stroke-width="1" opacity="0.08"/>
+  <line x1="880" y1="0" x2="880" y2="1080" stroke="#00F5A0" stroke-width="1" opacity="0.08"/>
+
+  <!-- Corner accents -->
+  <path d="M 40 80 L 40 40 L 80 40" stroke="#00F5A0" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 1000 40 L 1040 40 L 1040 80" stroke="#00F5A0" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 40 1000 L 40 1040 L 80 1040" stroke="#00F5A0" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 1000 1040 L 1040 1040 L 1040 1000" stroke="#00F5A0" stroke-width="3" fill="none" opacity="0.6"/>
+
+  <!-- ImadLabs wordmark top-left -->
+  <text x="60" y="66" font-family="Plus Jakarta Sans, sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">
+    Imad<tspan fill="#00F5A0">Labs</tspan>
+  </text>
+
+  <!-- App icon placeholder (replace with your app icon) -->
+  <rect x="390" y="140" width="300" height="300" rx="72" fill="#111827" stroke="#1E293B" stroke-width="2"/>
+  <!-- [REPLACE: Insert your app icon here] -->
+  <text x="540" y="305" font-family="Plus Jakarta Sans, sans-serif" font-size="20" fill="#64748B" text-anchor="middle">APP ICON</text>
+  <text x="540" y="332" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">300×300px</text>
+
+  <!-- App name -->
+  <text x="540" y="510" font-family="Plus Jakarta Sans, sans-serif" font-size="64" font-weight="800"
+        fill="#F8FAFC" text-anchor="middle" letter-spacing="-1">
+    <!-- [REPLACE: App Name] -->
+    App Name
+  </text>
+
+  <!-- Tagline -->
+  <text x="540" y="580" font-family="Plus Jakarta Sans, sans-serif" font-size="28" font-weight="400"
+        fill="#94A3B8" text-anchor="middle">
+    <!-- [REPLACE: App tagline or short description] -->
+    Your App Tagline Here
+  </text>
+
+  <!-- Version badge -->
+  <rect x="458" y="620" width="164" height="48" rx="24" fill="#00F5A0" opacity="0.15"/>
+  <rect x="458" y="620" width="164" height="48" rx="24" fill="none" stroke="#00F5A0" stroke-width="1.5"/>
+  <text x="540" y="651" font-family="JetBrains Mono, monospace" font-size="20" font-weight="600"
+        fill="#00F5A0" text-anchor="middle">
+    <!-- [REPLACE: Version] -->
+    v1.0.0
+  </text>
+
+  <!-- Feature highlights area -->
+  <text x="540" y="740" font-family="Plus Jakarta Sans, sans-serif" font-size="18" font-weight="600"
+        fill="#64748B" text-anchor="middle" letter-spacing="4">FEATURES</text>
+
+  <!-- Feature 1 -->
+  <circle cx="200" cy="810" r="6" fill="#00F5A0"/>
+  <text x="220" y="816" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#94A3B8">Feature One</text>
+
+  <!-- Feature 2 -->
+  <circle cx="200" cy="858" r="6" fill="#00FFC2"/>
+  <text x="220" y="864" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#94A3B8">Feature Two</text>
+
+  <!-- Feature 3 -->
+  <circle cx="200" cy="906" r="6" fill="#38BDF8"/>
+  <text x="220" y="912" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#94A3B8">Feature Three</text>
+
+  <!-- Website / CTA -->
+  <text x="540" y="980" font-family="Plus Jakarta Sans, sans-serif" font-size="20" font-weight="500"
+        fill="#64748B" text-anchor="middle">imadlabs.io · @ImadLabs</text>
+
+  <!-- HexaCore symbol bottom-right -->
+  <g transform="translate(880,780) scale(0.55)" filter="url(#glow)">
+    <polygon points="100,20 180,66 100,112 20,66" fill="url(#hc-top)" opacity="0.9"/>
+    <polygon points="20,76 100,122 100,212 20,166" fill="url(#hc-left)" opacity="0.85"/>
+    <polygon points="100,122 180,76 180,166 100,212" fill="url(#hc-right)" opacity="0.75"/>
+    <circle cx="100" cy="76" r="14" fill="#00FFC2"/>
+    <circle cx="100" cy="76" r="7" fill="white" opacity="0.9"/>
+    <path d="M 100 120 L 100 182 L 152 152" stroke="#00F5A0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="152" cy="152" r="5.5" fill="#00FFC2"/>
+  </g>
+</svg>

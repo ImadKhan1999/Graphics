@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="hc-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="hc-left" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="hc-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#003DB3"/>
+    </linearGradient>
+    <linearGradient id="bg-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0B1520"/>
+    </linearGradient>
+    <linearGradient id="accent-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5A0"/>
+      <stop offset="100%" stop-color="#00FFC2"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1080" height="1350" fill="#070B14"/>
+  <!-- Gradient overlay top -->
+  <rect width="1080" height="400" fill="#00F5A0" fill-opacity="0.04"/>
+  <!-- Corner accents -->
+  <path d="M 40 80 L 40 40 L 80 40" stroke="#00F5A0" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 1000 40 L 1040 40 L 1040 80" stroke="#00F5A0" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 40 1270 L 40 1310 L 80 1310" stroke="#00F5A0" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 1000 1310 L 1040 1310 L 1040 1270" stroke="#00F5A0" stroke-width="3" fill="none" opacity="0.5"/>
+  <!-- Large HexaCore centered -->
+  <g filter="url(#glow)" transform="translate(340, 180) scale(2.0)">
+    
+    <polygon points="200,40 360,132 200,224 40,132" fill="url(#hc-top)" opacity="0.9"/>
+    <polygon points="40,152 200,244 200,424 40,332" fill="url(#hc-left)" opacity="0.85"/>
+    <polygon points="200,244 360,152 360,332 200,424" fill="url(#hc-right)" opacity="0.75"/>
+    <circle cx="200" cy="152" r="28" fill="#00FFC2"/>
+    <circle cx="200" cy="152" r="14" fill="white" opacity="0.9"/>
+    <path d="M 200 240 L 200 364 L 304 304" stroke="#00F5A0" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="304" cy="304" r="11" fill="#00FFC2"/>
+  </g>
+  <!-- Content area -->
+  <text x="540" y="730" font-family="Plus Jakarta Sans, sans-serif" font-size="72" font-weight="800"
+        fill="#F8FAFC" text-anchor="middle">
+    Imad<tspan fill="#00F5A0">Labs</tspan>
+  </text>
+  <text x="540" y="800" font-family="Plus Jakarta Sans, sans-serif" font-size="28" fill="#94A3B8" text-anchor="middle">
+    Software Development
+  </text>
+  <!-- Divider -->
+  <rect x="440" y="840" width="200" height="2" fill="url(#accent-bar)" rx="1"/>
+  <!-- Post content area placeholder -->
+  <rect x="60" y="880" width="960" height="340" rx="20" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+  <text x="540" y="1040" font-family="Plus Jakarta Sans, sans-serif" font-size="28" fill="#64748B"
+        text-anchor="middle">[Post Content Here]</text>
+  <text x="540" y="1080" font-family="Plus Jakarta Sans, sans-serif" font-size="20" fill="#64748B"
+        text-anchor="middle">Replace with your announcement text</text>
+  <!-- Footer -->
+  <text x="540" y="1300" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#64748B"
+        text-anchor="middle">@ImadLabs · imadlabs.io</text>
+</svg>

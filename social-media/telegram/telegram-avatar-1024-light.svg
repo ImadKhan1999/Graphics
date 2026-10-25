@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+    <defs>
+        <radialGradient id="tg_bg_light" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#F1F5F9"/>
+        </radialGradient>
+    </defs>
+    <rect width="1024" height="1024" fill="url(#tg_bg_light)"/>
+    <circle cx="512" cy="512" r="480" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+    <g transform="translate(212, 180)">
+        
+    <defs>
+        <linearGradient id="g_hex_top" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0284C7"/>
+            <stop offset="100%" stop-color="#0369A1"/>
+        </linearGradient>
+        <linearGradient id="g_hex_left" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0369A1"/>
+            <stop offset="100%" stop-color="#075985"/>
+        </linearGradient>
+        <linearGradient id="g_hex_right" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2563EB"/>
+            <stop offset="100%" stop-color="#0284C7"/>
+        </linearGradient>
+        <filter id="g_glow_mint" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="8" result="blur"/>
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+        </filter>
+    </defs>
+    <g transform="scale(3.0)">
+        <polygon points="100,20 180,66 100,112 20,66" fill="url(#g_hex_top)"/>
+        <polygon points="20,76 100,122 100,212 20,166" fill="url(#g_hex_left)"/>
+        <polygon points="100,122 180,76 180,166 100,212" fill="url(#g_hex_right)"/>
+        <polygon points="100,50 145,76 100,102 55,76" fill="#F1F5F9" opacity="0.9"/>
+        <circle cx="100" cy="76" r="14" fill="#00FFC2" filter="url(#g_glow_mint)"/>
+        <circle cx="100" cy="76" r="7" fill="#FFFFFF"/>
+        <path d="M 100 122 L 100 182 L 152 152" stroke="#00F5A0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#g_glow_mint)"/>
+        <path d="M 100 125 L 100 180 L 150 151" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
+        <circle cx="152" cy="152" r="5" fill="#00FFC2"/>
+    </g>
+    
+    </g>
+</svg>

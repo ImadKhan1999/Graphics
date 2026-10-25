@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 600" width="1050" height="600">
+  <defs>
+    <linearGradient id="hc-top" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#0284C7"/></linearGradient>
+    <linearGradient id="hc-left" x1="100%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0284C7"/><stop offset="100%" stop-color="#0066FF"/></linearGradient>
+    <linearGradient id="hc-right" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0066FF"/><stop offset="100%" stop-color="#003DB3"/></linearGradient>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00F5A0"/><stop offset="100%" stop-color="#00FFC2"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <!-- Front card -->
+  <rect x="0" y="30" width="490" height="290" rx="20" fill="#0B0F19"/>
+  <rect x="0" y="30" width="490" height="290" rx="20" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="0" y="30" width="490" height="5" rx="2" fill="url(#acc)" opacity="0.6"/>
+  <g filter="url(#glow)" transform="translate(30, 80) scale(0.65)">
+    
+  <g id="hc">
+    <polygon points="65,13 117,43 65,73 13,43" fill="url(#hc-top)" opacity="0.9"/>
+    <polygon points="13,49 65,79 65,138 13,108" fill="url(#hc-left)" opacity="0.85"/>
+    <polygon points="65,79 117,49 117,108 65,138" fill="url(#hc-right)" opacity="0.75"/>
+    <circle cx="65" cy="49" r="9" fill="#00FFC2"/>
+    <circle cx="65" cy="49" r="5" fill="white" opacity="0.9"/>
+    <path d="M 65 78 L 65 118 L 99 99" stroke="#00F5A0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="99" cy="99" r="4" fill="#00FFC2"/>
+  </g>
+  </g>
+  <text x="140" y="120" font-family="Plus Jakarta Sans, sans-serif" font-size="32" font-weight="800" fill="#F8FAFC">
+    Imad<tspan fill="#00F5A0">Labs</tspan>
+  </text>
+  <text x="140" y="155" font-family="Plus Jakarta Sans, sans-serif" font-size="16" fill="#94A3B8">Software Development Studio</text>
+  <text x="30" y="250" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="#64748B">imadlabs.io</text>
+  <text x="30" y="274" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="#64748B">@ImadLabs</text>
+  <!-- Back card -->
+  <rect x="560" y="30" width="490" height="290" rx="20" fill="#070B14"/>
+  <rect x="560" y="30" width="490" height="290" rx="20" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <g filter="url(#glow)" transform="translate(660, 80) scale(1.0)">
+    
+  <g id="hc">
+    <polygon points="100,20 180,66 100,112 20,66" fill="url(#hc-top)" opacity="0.9"/>
+    <polygon points="20,76 100,122 100,212 20,166" fill="url(#hc-left)" opacity="0.85"/>
+    <polygon points="100,122 180,76 180,166 100,212" fill="url(#hc-right)" opacity="0.75"/>
+    <circle cx="100" cy="76" r="14" fill="#00FFC2"/>
+    <circle cx="100" cy="76" r="7" fill="white" opacity="0.9"/>
+    <path d="M 100 120 L 100 182 L 152 152" stroke="#00F5A0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="152" cy="152" r="6" fill="#00FFC2"/>
+  </g>
+  </g>
+  <text x="805" y="240" font-family="Plus Jakarta Sans, sans-serif" font-size="26" font-weight="800"
+        fill="#F8FAFC" text-anchor="middle">
+    Imad<tspan fill="#00F5A0">Labs</tspan>
+  </text>
+  <text x="30" y="380" font-family="Plus Jakarta Sans, sans-serif" font-size="18" font-weight="700"
+        fill="#94A3B8">Business Card — Front &amp; Back</text>
+  <text x="30" y="408" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="#64748B">3.5 × 2 inches · 300 DPI print-ready</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <defs>
+    <linearGradient id="hc-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="hc-left" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="hc-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#003DB3"/>
+    </linearGradient>
+    <linearGradient id="bg-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0B1520"/>
+    </linearGradient>
+    <linearGradient id="accent-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5A0"/>
+      <stop offset="100%" stop-color="#00FFC2"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1080" height="1350" fill="#070B14"/>
+  <rect x="0" y="0" width="1080" height="6" fill="url(#accent-bar)"/>
+  <g filter="url(#glow)" transform="translate(340, 200) scale(2.0)">
+    
+    <polygon points="200,40 360,132 200,224 40,132" fill="url(#hc-top)" opacity="0.9"/>
+    <polygon points="40,152 200,244 200,424 40,332" fill="url(#hc-left)" opacity="0.85"/>
+    <polygon points="200,244 360,152 360,332 200,424" fill="url(#hc-right)" opacity="0.75"/>
+    <circle cx="200" cy="152" r="28" fill="#00FFC2"/>
+    <circle cx="200" cy="152" r="14" fill="white" opacity="0.9"/>
+    <path d="M 200 240 L 200 364 L 304 304" stroke="#00F5A0" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="304" cy="304" r="11" fill="#00FFC2"/>
+  </g>
+  <text x="540" y="760" font-family="Plus Jakarta Sans, sans-serif" font-size="68" font-weight="800"
+        fill="#F8FAFC" text-anchor="middle">
+    Imad<tspan fill="#00F5A0">Labs</tspan>
+  </text>
+  <text x="540" y="830" font-family="Plus Jakarta Sans, sans-serif" font-size="26" fill="#94A3B8"
+        text-anchor="middle">Building the future of digital tools</text>
+  <rect x="440" y="870" width="200" height="2" fill="url(#accent-bar)" rx="1"/>
+  <text x="540" y="960" font-family="Plus Jakarta Sans, sans-serif" font-size="32" fill="#F8FAFC"
+        text-anchor="middle">[Post headline here]</text>
+  <text x="540" y="1020" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#94A3B8"
+        text-anchor="middle">Replace with your tweet content</text>
+  <text x="540" y="1290" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#64748B"
+        text-anchor="middle">@ImadLabs · imadlabs.io</text>
+</svg>

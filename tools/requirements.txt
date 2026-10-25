@@ -1,0 +1,2 @@
+# ImadLabs Brand Studio - Asset Generator Dependencies
+pillow>=10.0.0

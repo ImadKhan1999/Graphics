@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0B1520"/>
+    </linearGradient>
+    <linearGradient id="hc-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="hc-left" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="hc-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#003DB3"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <!-- Left stripe -->
+  <rect x="0" y="0" width="6" height="720" fill="#00F5A0"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1280" height="80" fill="#111827" opacity="0.8"/>
+  <!-- Brand name -->
+  <text x="40" y="52" font-family="Plus Jakarta Sans, sans-serif" font-size="26" font-weight="800" fill="#F8FAFC">
+    Imad<tspan fill="#00F5A0">Labs</tspan>
+  </text>
+  <!-- Update label -->
+  <rect x="1100" y="20" width="140" height="40" rx="20" fill="#00F5A0"/>
+  <text x="1170" y="46" font-family="Plus Jakarta Sans, sans-serif" font-size="18" font-weight="700" fill="#000000" text-anchor="middle">UPDATE</text>
+  <!-- App icon placeholder -->
+  <rect x="80" y="140" width="200" height="200" rx="44" fill="#111827" stroke="#1E293B" stroke-width="2"/>
+  <text x="180" y="248" font-family="Plus Jakarta Sans, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">APP ICON</text>
+  <!-- App name -->
+  <text x="320" y="200" font-family="Plus Jakarta Sans, sans-serif" font-size="52" font-weight="800" fill="#F8FAFC">App Name</text>
+  <!-- Version -->
+  <rect x="320" y="220" width="140" height="38" rx="19" fill="#00F5A0" fill-opacity="0.12"/>
+  <rect x="320" y="220" width="140" height="38" rx="19" fill="none" stroke="#00F5A0" stroke-width="1"/>
+  <text x="390" y="245" font-family="JetBrains Mono, monospace" font-size="18" fill="#00F5A0" text-anchor="middle">v2.0.0</text>
+  <!-- What's new -->
+  <text x="320" y="295" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="600" fill="#64748B" letter-spacing="3">WHAT'S NEW</text>
+  <!-- Changes -->
+  <circle cx="330" cy="340" r="5" fill="#00F5A0"/>
+  <text x="350" y="347" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#94A3B8">New feature or fix here</text>
+  <circle cx="330" cy="390" r="5" fill="#00FFC2"/>
+  <text x="350" y="397" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#94A3B8">Another improvement</text>
+  <circle cx="330" cy="440" r="5" fill="#38BDF8"/>
+  <text x="350" y="447" font-family="Plus Jakarta Sans, sans-serif" font-size="22" fill="#94A3B8">Performance enhancements</text>
+  <!-- Website -->
+  <text x="640" y="680" font-family="Plus Jakarta Sans, sans-serif" font-size="18" fill="#64748B" text-anchor="middle">imadlabs.io · @ImadLabs</text>
+  <!-- HexaCore -->
+  <g transform="translate(1080,380) scale(0.5)" filter="url(#glow)">
+    <polygon points="100,20 180,66 100,112 20,66" fill="url(#hc-top)" opacity="0.9"/>
+    <polygon points="20,76 100,122 100,212 20,166" fill="url(#hc-left)" opacity="0.85"/>
+    <polygon points="100,122 180,76 180,166 100,212" fill="url(#hc-right)" opacity="0.75"/>
+    <circle cx="100" cy="76" r="14" fill="#00FFC2"/>
+    <circle cx="100" cy="76" r="7" fill="white" opacity="0.9"/>
+    <path d="M 100 120 L 100 182 L 152 152" stroke="#00F5A0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="152" cy="152" r="5.5" fill="#00FFC2"/>
+  </g>
+</svg>

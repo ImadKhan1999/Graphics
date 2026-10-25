@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hc-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="hc-left" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="hc-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#003DB3"/>
+    </linearGradient>
+    <linearGradient id="bg-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#0B1520"/>
+    </linearGradient>
+    <linearGradient id="accent-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5A0"/>
+      <stop offset="100%" stop-color="#00FFC2"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="720" fill="#070B14"/>
+  <!-- Left bright gradient -->
+  <rect x="0" y="0" width="500" height="720" fill="#00F5A0" fill-opacity="0.05"/>
+  <!-- Accent left bar -->
+  <rect x="0" y="0" width="8" height="720" fill="url(#accent-bar)"/>
+  <!-- HexaCore left -->
+  <g filter="url(#glow)" transform="translate(40, 180) scale(1.4)">
+    
+    <polygon points="140,28 252,92 140,157 28,92" fill="url(#hc-top)" opacity="0.9"/>
+    <polygon points="28,106 140,171 140,297 28,232" fill="url(#hc-left)" opacity="0.85"/>
+    <polygon points="140,171 252,106 252,232 140,297" fill="url(#hc-right)" opacity="0.75"/>
+    <circle cx="140" cy="106" r="20" fill="#00FFC2"/>
+    <circle cx="140" cy="106" r="10" fill="white" opacity="0.9"/>
+    <path d="M 140 168 L 140 255 L 213 213" stroke="#00F5A0" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="213" cy="213" r="8" fill="#00FFC2"/>
+  </g>
+  <!-- Right content area (dark) -->
+  <rect x="600" y="0" width="680" height="720" fill="#111827" fill-opacity="0.5"/>
+  <!-- Thumbnail title area -->
+  <text x="640" y="220" font-family="Plus Jakarta Sans, sans-serif" font-size="22" font-weight="600"
+        fill="#00F5A0" letter-spacing="3">NEW RELEASE</text>
+  <text x="640" y="320" font-family="Plus Jakarta Sans, sans-serif" font-size="64" font-weight="800"
+        fill="#F8FAFC">App</text>
+  <text x="640" y="400" font-family="Plus Jakarta Sans, sans-serif" font-size="64" font-weight="800"
+        fill="#00F5A0">Name</text>
+  <text x="640" y="460" font-family="Plus Jakarta Sans, sans-serif" font-size="24" fill="#94A3B8">Feature or announcement text</text>
+  <!-- Version -->
+  <rect x="640" y="500" width="120" height="40" rx="20" fill="#00F5A0" fill-opacity="0.15"/>
+  <rect x="640" y="500" width="120" height="40" rx="20" fill="none" stroke="#00F5A0" stroke-width="1.5"/>
+  <text x="700" y="526" font-family="JetBrains Mono, monospace" font-size="18" fill="#00F5A0" text-anchor="middle">v1.0.0</text>
+  <!-- Brand tag bottom right -->
+  <text x="1240" y="698" font-family="Plus Jakarta Sans, sans-serif" font-size="18" font-weight="700"
+        fill="#94A3B8" text-anchor="end">ImadLabs</text>
+</svg>

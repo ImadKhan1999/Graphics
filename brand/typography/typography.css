@@ -1,0 +1,36 @@
+/**
+ * ImadLabs Official Typography Stylesheet
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --imad-font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --imad-font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --imad-font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* Type Scale */
+  --imad-text-display: 800 48px/56px var(--imad-font-heading);
+  --imad-text-h1: 800 36px/44px var(--imad-font-heading);
+  --imad-text-h2: 700 28px/36px var(--imad-font-heading);
+  --imad-text-h3: 700 22px/30px var(--imad-font-heading);
+  --imad-text-h4: 600 18px/26px var(--imad-font-heading);
+
+  --imad-text-body-lg: 400 16px/24px var(--imad-font-body);
+  --imad-text-body-base: 400 14px/20px var(--imad-font-body);
+  --imad-text-body-sm: 400 12px/16px var(--imad-font-body);
+  --imad-text-caption: 500 11px/14px var(--imad-font-body);
+  --imad-text-mono: 500 13px/18px var(--imad-font-mono);
+}
+
+.imad-heading-display { font: var(--imad-text-display); letter-spacing: -0.02em; }
+.imad-heading-1 { font: var(--imad-text-h1); letter-spacing: -0.02em; }
+.imad-heading-2 { font: var(--imad-text-h2); letter-spacing: -0.015em; }
+.imad-heading-3 { font: var(--imad-text-h3); letter-spacing: -0.01em; }
+.imad-heading-4 { font: var(--imad-text-h4); }
+
+.imad-body-lg { font: var(--imad-text-body-lg); }
+.imad-body { font: var(--imad-text-body-base); }
+.imad-body-sm { font: var(--imad-text-body-sm); }
+.imad-caption { font: var(--imad-text-caption); }
+.imad-code { font: var(--imad-text-mono); }

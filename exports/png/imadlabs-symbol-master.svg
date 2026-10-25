@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <rect width="100%" height="100%" fill="#070B14"/>
+    
+    <defs>
+        <linearGradient id="hex_top_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#38BDF8"/>
+            <stop offset="100%" stop-color="#0284C7"/>
+        </linearGradient>
+        <linearGradient id="hex_left_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0284C7"/>
+            <stop offset="100%" stop-color="#0B1930"/>
+        </linearGradient>
+        <linearGradient id="hex_right_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0066FF"/>
+            <stop offset="100%" stop-color="#0284C7"/>
+        </linearGradient>
+        <filter id="glow_mint" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="8" result="blur"/>
+            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+        </filter>
+    </defs>
+    
+    <g transform="translate(106, 85) scale(1.5)">
+        
+        <!-- Master HexaCore Matrix Emblem -->
+        <g id="imadlabs-hexacore-master">
+            <!-- Top Facet (Diamond) -->
+            <polygon points="100,20 180,66 100,112 20,66" fill="url(#hex_top_grad)" opacity="1.0"/>
+            
+            <!-- Left Facet -->
+            <polygon points="20,76 100,122 100,212 20,166" fill="url(#hex_left_grad)" opacity="1.0"/>
+            
+            <!-- Right Facet -->
+            <polygon points="100,122 180,76 180,166 100,212" fill="url(#hex_right_grad)" opacity="1.0"/>
+            
+            <!-- Inner Quantum Aperture on Top Facet -->
+            <polygon points="100,50 145,76 100,102 55,76" fill="#050A14" opacity="0.9"/>
+            
+            <!-- THE DOT: Glowing Quantum Dot of the "i" -->
+            <circle cx="100" cy="76" r="14" fill="#00FFC2" filter="url(#glow_mint)"/>
+            <circle cx="100" cy="76" r="7" fill="#FFFFFF"/>
+            
+            <!-- THE L: Kinetic Isometric Letter "L" Pathway -->
+            <path d="M 100 122 L 100 182 L 152 152" 
+                  stroke="#00F5A0" 
+                  stroke-width="12" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  fill="none" 
+                  filter="url(#glow_mint)"/>
+                  
+            <!-- Core highlight line inside L -->
+            <path d="M 100 125 L 100 180 L 150 151" 
+                  stroke="#FFFFFF" 
+                  stroke-width="4" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  fill="none" 
+                  opacity="0.8"/>
+                  
+            <!-- Forward velocity tick on L apex -->
+            <circle cx="152" cy="152" r="5" fill="#00FFC2"/>
+        </g>
+        
+    </g>
+</svg>

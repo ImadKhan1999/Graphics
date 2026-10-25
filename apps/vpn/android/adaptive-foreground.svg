@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- ImadLabs app icon (vpn). Edit the "glyph" group to customise the symbol.
+       The "background" group is swapped out automatically for iOS (full bleed) and Android adaptive layers. -->
+  <defs>
+    <linearGradient id="cobalt" gradientUnits="userSpaceOnUse" x1="300" y1="250" x2="740" y2="760">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="mint" gradientUnits="userSpaceOnUse" x1="280" y1="250" x2="760" y2="820">
+      <stop offset="0%" stop-color="#00FFC2"/>
+      <stop offset="100%" stop-color="#00D285"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#111C33"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </radialGradient>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="background"></g>
+  <g id="glyph">
+    <!-- Shield -->
+    <path d="M 512 230 L 730 310 L 730 500 C 730 640 640 750 512 800 C 384 750 294 640 294 500 L 294 310 Z" fill="url(#cobalt)" stroke="url(#cobalt)" stroke-width="40" stroke-linejoin="round"/>
+    <!-- Lock -->
+    <path d="M 450 500 L 450 450 A 62 62 0 0 1 574 450 L 574 500" fill="none" stroke="#00F5A0" stroke-width="34" stroke-linecap="round" filter="url(#glow)"/>
+    <rect x="420" y="495" width="184" height="150" rx="30" fill="url(#mint)" filter="url(#glow)"/>
+    <circle cx="512" cy="560" r="20" fill="#070B14"/>
+    <rect x="502" y="565" width="20" height="45" rx="10" fill="#070B14"/>
+    <!-- ImadLabs quantum dot (brand signature) -->
+    <circle cx="770" cy="240" r="46" fill="#00FFC2" filter="url(#glow)"/>
+    <circle cx="770" cy="240" r="20" fill="#FFFFFF"/>
+  </g>
+</svg>

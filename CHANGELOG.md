@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed the archived Dynamic Nexus assets and rejected explorations.
 
 ### Added
+- Category icon sets in `apps/`: `vpn`, `yt`, `video-player`, `downloader` and `call`, each with iOS, Android, web and Windows sizes.
 - `tools/build_app_icons.py` builds iOS, Android (incl. adaptive layers), web and Windows icons from a master SVG. It renders once at 1024px and downscales, so small sizes are no longer cropped.
 
 ---

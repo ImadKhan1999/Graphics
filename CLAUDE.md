@@ -69,6 +69,20 @@ Use [`apps/template/`](apps/template/) as the foundation:
 - Every app gets its own bold symbol on the dark rounded tile (e.g., play button for **iTube**, download arrow and tray for **Hyper Downloader**), drawn in the Electric Cobalt gradient and Cyber Mint.
 - Every app icon carries the ImadLabs quantum dot (`#00FFC2` glow with a white core) in the top-right as the brand signature.
 
+### Ready-made Category Icons
+Point a project at the folder that matches it. Each one has `<name>-master-icon.svg`, `<name>-1024x1024.png`, and `ios/`, `android/`, `web/` and `windows/` icon sets.
+
+| App type | Folder |
+|---|---|
+| VPN | [`apps/vpn/`](apps/vpn/) |
+| YT / video streaming | [`apps/yt/`](apps/yt/) |
+| Video player | [`apps/video-player/`](apps/video-player/) |
+| Downloader | [`apps/downloader/`](apps/downloader/) |
+| Calling | [`apps/call/`](apps/call/) |
+| iTube | [`apps/itube/`](apps/itube/) |
+| Hyper Downloader | [`apps/hyper-downloader/`](apps/hyper-downloader/) |
+| New app starter | [`apps/template/`](apps/template/) |
+
 ### Step 3: Generate Platform Icons Automatically
 Copy `apps/template/` to `apps/<app_name>/`, rename the master SVG to `<app_name>-master-icon.svg`, edit its `glyph` group, then build every size (iOS, Android, web, Windows, .ico):
 ```bash

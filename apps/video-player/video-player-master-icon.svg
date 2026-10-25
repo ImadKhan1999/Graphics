@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- ImadLabs app icon (video-player). Edit the "glyph" group to customise the symbol.
+       The "background" group is swapped out automatically for iOS (full bleed) and Android adaptive layers. -->
+  <defs>
+    <linearGradient id="cobalt" gradientUnits="userSpaceOnUse" x1="300" y1="250" x2="740" y2="760">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="mint" gradientUnits="userSpaceOnUse" x1="280" y1="250" x2="760" y2="820">
+      <stop offset="0%" stop-color="#00FFC2"/>
+      <stop offset="100%" stop-color="#00D285"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#111C33"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </radialGradient>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="background">
+    <rect width="1024" height="1024" rx="224" fill="url(#bgGlow)"/>
+    <rect x="6" y="6" width="1012" height="1012" rx="218" fill="none" stroke="#1E293B" stroke-width="4"/>
+  </g>
+  <g id="glyph">
+    <!-- Playback ring -->
+    <circle cx="512" cy="530" r="250" fill="none" stroke="#1E293B" stroke-width="44"/>
+    <path d="M 512 280 A 250 250 0 1 1 296 655" fill="none" stroke="url(#mint)" stroke-width="44" stroke-linecap="round" filter="url(#glow)"/>
+    <!-- Play -->
+    <path d="M 465 430 L 465 630 L 630 530 Z" fill="url(#cobalt)" stroke="url(#cobalt)" stroke-width="44" stroke-linejoin="round"/>
+    <!-- ImadLabs quantum dot (brand signature) -->
+    <circle cx="790" cy="250" r="46" fill="#00FFC2" filter="url(#glow)"/>
+    <circle cx="790" cy="250" r="20" fill="#FFFFFF"/>
+  </g>
+</svg>

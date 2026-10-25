@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- ImadLabs app icon (call). Edit the "glyph" group to customise the symbol.
+       The "background" group is swapped out automatically for iOS (full bleed) and Android adaptive layers. -->
+  <defs>
+    <linearGradient id="cobalt" gradientUnits="userSpaceOnUse" x1="300" y1="250" x2="740" y2="760">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="mint" gradientUnits="userSpaceOnUse" x1="280" y1="250" x2="760" y2="820">
+      <stop offset="0%" stop-color="#00FFC2"/>
+      <stop offset="100%" stop-color="#00D285"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#111C33"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </radialGradient>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="cobaltSmall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+  </defs>
+  <g id="background"></g>
+  <g id="glyph">
+    <!-- Handset -->
+    <g transform="translate(220 260) scale(24)">
+      <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="url(#cobaltSmall)"/>
+    </g>
+    <!-- Signal arcs around the quantum dot -->
+    <path d="M 590 300 A 140 140 0 0 1 724 434" fill="none" stroke="#00F5A0" stroke-width="34" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M 590 190 A 250 250 0 0 1 834 434" fill="none" stroke="#00F5A0" stroke-opacity="0.55" stroke-width="34" stroke-linecap="round"/>
+    <circle cx="610" cy="414" r="40" fill="#00FFC2" filter="url(#glow)"/>
+    <circle cx="610" cy="414" r="17" fill="#FFFFFF"/>
+  </g>
+</svg>

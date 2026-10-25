@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.0.0] - 2026-10-25
+
+### Changed
+- **The cube is gone everywhere.** The HexaCore Matrix mark is now a flat "iL": the glowing quantum dot above the Cyber Mint kinetic L. It replaces the isometric cube in every logo variant, export (PNG, SVG, ICO, favicon, PDF), Telegram graphic, social media asset, marketing piece and template, and in the animated hero on `index.html`.
+- Brand docs (`CLAUDE.md`, `BRAND_GUIDELINES.md`, `README.md`) describe the new mark.
+- Fixed the unescaped `&` that broke the Telegram template SVGs.
+- Fixed cropped small exports (`favicon-*`, `imadlabs-symbol-*`).
+
+### Moved
+- The cube-era generator scripts (`build_all_graphics.py`, `build_logo_system.py`, `complete_brand_factory.py`, `perfect_brand_system.py`) moved to `tools/legacy/`. Don't run them, because they redraw the cube.
+
+---
+
 ## [1.4.0] - 2026-10-25
 
 ### Changed

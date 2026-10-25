@@ -28,15 +28,9 @@
   <!-- Accent left bar -->
   <rect x="0" y="0" width="8" height="720" fill="url(#accent-bar)"/>
   <!-- HexaCore left -->
-  <g filter="url(#glow)" transform="translate(40, 180) scale(1.4)">
+  <g transform="translate(60, 200)">
     
-    <polygon points="140,28 252,92 140,157 28,92" fill="url(#hc-top)" opacity="0.9"/>
-    <polygon points="28,106 140,171 140,297 28,232" fill="url(#hc-left)" opacity="0.85"/>
-    <polygon points="140,171 252,106 252,232 140,297" fill="url(#hc-right)" opacity="0.75"/>
-    <circle cx="140" cy="106" r="20" fill="#00FFC2"/>
-    <circle cx="140" cy="106" r="10" fill="white" opacity="0.9"/>
-    <path d="M 140 168 L 140 255 L 213 213" stroke="#00F5A0" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <circle cx="213" cy="213" r="8" fill="#00FFC2"/>
+    <g class="imadlabs-mark" transform="translate(28.00 28.00) scale(1.4000)"><defs><linearGradient id="ilm63g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00FFC2"/><stop offset="1" stop-color="#00D285"/></linearGradient><filter id="ilm63f" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><circle cx="42" cy="28" r="18" fill="#00FFC2" filter="url(#ilm63f)"/><circle cx="42" cy="28" r="8" fill="#FFFFFF"/><path d="M 42 76 L 42 172 L 122 172" fill="none" stroke="url(#ilm63g)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" filter="url(#ilm63f)"/><path d="M 42 80 L 42 168 L 118 168" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
   </g>
   <!-- Right content area (dark) -->
   <rect x="600" y="0" width="680" height="720" fill="#111827" fill-opacity="0.5"/>

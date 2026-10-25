@@ -12,7 +12,7 @@ This file contains mandatory instructions for Claude Code, Antigravity, Cursor, 
    - In code identifiers, use `ImadLabs` (PascalCase), `imadLabs` (camelCase), or `imad-labs` (kebab-case).
 
 2. **Official Logo Concept:**
-   - The official company identity is **The HexaCore Matrix**: an isometric 3D software core with an electric Cyber Mint (`#00F5A0`) kinetic 'L' pathway and glowing quantum 'i' dot (`#00FFC2`).
+   - The official company identity is **The HexaCore Matrix**: a flat **"iL"** mark: a glowing Quantum Core dot (`#00FFC2`) as the 'i' above a Cyber Mint (`#00F5A0`) kinetic 'L'. There is **no cube or box**. Never draw the old isometric cube.
    - Master files are located in [`brand/master/`](brand/master/) and [`brand/logos/`](brand/logos/).
    - **Never** substitute generic logos, placeholder icons, or arbitrary geometrical shapes when building an ImadLabs product.
 
@@ -31,7 +31,7 @@ Always reference the official design tokens when styling UI components:
 --imad-color-primary:    #0066FF;  /* Electric Cobalt */
 --imad-color-accent:     #00F5A0;  /* Cyber Mint (The L) */
 --imad-color-dot:        #00FFC2;  /* Quantum Dot Core */
---imad-color-sky:        #38BDF8;  /* Sky Diamond Facet */
+--imad-color-sky:        #38BDF8;  /* Sky Accent */
 
 /* Dark Mode Surfaces (Default) */
 --imad-bg:               #070B14;  /* Deep Void */
@@ -65,7 +65,7 @@ Use [`apps/template/`](apps/template/) as the foundation:
 - `apps/template/ios/`, `apps/template/android/`, `apps/template/web/`, `apps/template/windows/`
 
 ### Step 2: Establish the App's Distinct Silhouette
-- App icons do **not** use the HexaCore cube. The cube is the company logo only.
+- Nothing uses the old HexaCore cube, including app icons and the company logo.
 - Every app gets its own bold symbol on the dark rounded tile (e.g., play button for **iTube**, download arrow and tray for **Hyper Downloader**), drawn in the Electric Cobalt gradient and Cyber Mint.
 - Every app icon carries the ImadLabs quantum dot (`#00FFC2` glow with a white core) in the top-right as the brand signature.
 

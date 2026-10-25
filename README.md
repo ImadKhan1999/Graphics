@@ -24,9 +24,10 @@ Welcome to the official **ImadLabs Brand Studio & Graphics Factory**. This repos
 
 The official company brandmark for ImadLabs is **The HexaCore Matrix** (Approved Concept 02 Refined).
 
-- **Isometric Hexagonal Chassis:** An architectural 3D hexagon composed of three interlocking dimensional facets representing modular software architecture, microservices, and downloadable software packages.
-- **Kinetic "L" Energy Pathway:** An electric **Cyber Mint (`#00F5A0`)** isometric vector conduit that descends along the central vertical seam of the cube and sweeps outward along the 30-degree isometric plane. It forms an unmistakable high-contrast letterform **"L"** that shines with neon clarity on dark interfaces.
-- **Quantum Aperture & Photon Dot:** A recessed hexagonal aperture centered in the top facet housing a glowing quantum core dot (`#00FFC2` with `#FFFFFF` center), serving as the luminous tittle of the letterform **"i"**.
+- **No cube:** The mark is flat and has no box, cube or container, so it can sit on any background and be resized freely. Never add the old isometric cube back.
+- **The Quantum Dot ("i"):** A glowing Quantum Core dot (`#00FFC2` with a `#FFFFFF` center) that forms the tittle of the letter **"i"**.
+- **The Kinetic "L":** A thick, rounded Cyber Mint (`#00F5A0` to `#00D285`) stroke that drops straight down and sweeps right to form the letter **"L"**, with a thin white highlight running through it. Together with the dot it reads as **"iL"**, for ImadLabs.
+- **Glow:** On dark backgrounds the dot and L carry a soft mint glow. On light backgrounds the L runs from mint to Electric Cobalt (`#0066FF`), with no glow.
 - **Wordmark:** Customized **Plus Jakarta Sans** with geometric kerning, rendering `Imad` in crisp white/slate and `Labs` highlighted in Cyber Mint (`#00F5A0`).
 
 ### Master File Locations
@@ -44,7 +45,7 @@ The official company brandmark for ImadLabs is **The HexaCore Matrix** (Approved
 | **Primary Accent (L)** | Cyber Mint | `#00F5A0` | `0, 245, 160` | `159°, 100%, 48%` | <span style="background:#00F5A0;width:24px;height:14px;display:inline-block;border-radius:2px;"></span> |
 | **Quantum Dot Core** | Quantum Dot | `#00FFC2` | `0, 255, 194` | `166°, 100%, 50%` | <span style="background:#00FFC2;width:24px;height:14px;display:inline-block;border-radius:2px;"></span> |
 | **HexaCore Base** | Electric Cobalt | `#0066FF` | `0, 102, 255` | `216°, 100%, 50%` | <span style="background:#0066FF;width:24px;height:14px;display:inline-block;border-radius:2px;"></span> |
-| **Top Facet Highlight**| Sky Diamond | `#38BDF8` | `56, 189, 248` | `199°, 92%, 60%` | <span style="background:#38BDF8;width:24px;height:14px;display:inline-block;border-radius:2px;"></span> |
+| **Sky Accent**| Sky Diamond | `#38BDF8` | `56, 189, 248` | `199°, 92%, 60%` | <span style="background:#38BDF8;width:24px;height:14px;display:inline-block;border-radius:2px;"></span> |
 | **Dark Canvas**| Deep Void | `#070B14` | `7, 11, 20` | `222°, 48%, 5%` | <span style="background:#070B14;width:24px;height:14px;display:inline-block;border-radius:2px;"></span> |
 | **Dark Card** | Surface Card | `#111827` | `17, 24, 39` | `220°, 39%, 11%` | <span style="background:#111827;width:24px;height:14px;display:inline-block;border-radius:2px;"></span> |
 | **Dark Border**| Border Line | `#1E293B` | `30, 41, 59` | `217°, 33%, 17%` | <span style="background:#1E293B;width:24px;height:14px;display:inline-block;border-radius:2px;"></span> |
@@ -173,14 +174,12 @@ imadlabs-brand-kit/
 ├── tools/                              # Automation Scripts
 │   ├── export_assets.py                # Multi-Format CLI Asset Exporter
 │   ├── requirements.txt                # Python Dependencies
-│   ├── build_logo_system.py            # Master Logo Vector Generator
-│   ├── build_all_graphics.py           # Apps, Telegram & Social Builder
-│   └── build_asset_catalog.py          # Automatic Catalog Generator
+│   ├── build_app_icons.py              # App Icon Builder (iOS, Android, Web, Windows)
+│   ├── build_asset_catalog.py          # Automatic Catalog Generator
+│   └── legacy/                         # Retired cube-era generators (do not run)
 │
-└── previews/                           # Visual Previews & Presentations
-    ├── logo-concepts/                  # 10 Explored Concepts & Interactive Viewer
-    ├── icon-concepts/                  # App Icon Explorations
-    └── brand-presentations/            # Presentation Materials
+└── previews/                           # Visual Previews
+    └── hexacore-explorations/          # Approved Cyber Mint colorway
 ```
 
 ---

@@ -1,10 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><rect width="100%" height="100%" fill="#070B14" rx="32"/><g transform="translate(28, 20)">
         <!-- Simplified Small (16-32px) -->
         <g id="hexacore-small">
-            <polygon points="100,20 180,66 100,112 20,66" fill="#38BDF8"/>
-            <polygon points="20,76 100,122 100,212 20,166" fill="#0284C7"/>
-            <polygon points="100,122 180,76 180,166 100,212" fill="#0066FF"/>
-            <circle cx="100" cy="76" r="18" fill="#00FFC2"/>
-            <path d="M 100 118 L 100 182 L 154 151" stroke="#00F5A0" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <g class="imadlabs-mark" transform="translate(20.00 20.00) scale(1.0000)"><defs><linearGradient id="ilm10g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00FFC2"/><stop offset="1" stop-color="#00D285"/></linearGradient><filter id="ilm10f" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><circle cx="42" cy="28" r="18" fill="#00FFC2" filter="url(#ilm10f)"/><circle cx="42" cy="28" r="8" fill="#FFFFFF"/><path d="M 42 76 L 42 172 L 122 172" fill="none" stroke="url(#ilm10g)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" filter="url(#ilm10f)"/><path d="M 42 80 L 42 168 L 118 168" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
         </g>
         </g></svg>

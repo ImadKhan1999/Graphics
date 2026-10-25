@@ -25,12 +25,10 @@ Brand Name: **ImadLabs** (Always spelled as one word: capital `I`, lowercase `ma
 The official brandmark for ImadLabs is **The HexaCore Matrix** (Approved Concept 02 Refined).
 
 ### Geometric Construction & Anatomy
-- **The Isometric Hexagonal Chassis:** An architectural 3D hexagon composed of three interlocking dimensional facets representing modular software architecture, microservices, and downloadable software packages.
-  - **Top Facet:** Diamond surface illuminated in Sky Cyan (`#38BDF8` to `#0284C7`), representing data ingress.
-  - **Left Facet:** Deep cobalt shadow (`#0284C7` to `#0B1930`), giving grounded dimensional mass.
-  - **Right Facet:** Dynamic electric blue reflection (`#0066FF` to `#0284C7`), giving forward velocity.
-- **The Quantum Aperture & Photon Dot:** A recessed hexagonal aperture centered in the top facet housing a glowing quantum core dot (`#00FFC2` with `#FFFFFF` center), serving as the luminous tittle of the letterform **"i"**.
-- **The Kinetic "L" Pathway:** An electric **Cyber Mint (`#00F5A0`)** isometric vector conduit that descends along the central vertical seam of the cube and sweeps outward along the 30-degree isometric plane. It forms an unmistakable high-contrast letterform **"L"** that shines with neon clarity on dark interfaces.
+- **No cube:** The mark is flat and has no box, cube or container, so it can sit on any background and be resized freely. Never add the old isometric cube back.
+- **The Quantum Dot ("i"):** A glowing Quantum Core dot (`#00FFC2` with a `#FFFFFF` center) that forms the tittle of the letter **"i"**.
+- **The Kinetic "L":** A thick, rounded Cyber Mint (`#00F5A0` to `#00D285`) stroke that drops straight down and sweeps right to form the letter **"L"**, with a thin white highlight running through it. Together with the dot it reads as **"iL"**, for ImadLabs.
+- **Glow:** On dark backgrounds the dot and L carry a soft mint glow. On light backgrounds the L runs from mint to Electric Cobalt (`#0066FF`), with no glow.
 - **The Wordmark:** Typographic lockup set in customized **Plus Jakarta Sans** with geometric kerning. `Imad` is rendered in pure white (dark mode) or deep slate (light mode), while `Labs` is accentuated in Cyber Mint (`#00F5A0`).
 
 ### Master File References
@@ -49,8 +47,8 @@ The official brandmark for ImadLabs is **The HexaCore Matrix** (Approved Concept
 |---|---|---|---|---|---|
 | <span style="display:inline-block;width:16px;height:16px;background:#00F5A0;border-radius:3px;"></span> | **Cyber Mint** | `#00F5A0` | `0, 245, 160` | `159°, 100%, 48%` | **Primary Brand Accent (The L):** Active code execution, velocity, peak dark-mode contrast |
 | <span style="display:inline-block;width:16px;height:16px;background:#00FFC2;border-radius:3px;"></span> | **Quantum Core**| `#00FFC2` | `0, 255, 194` | `166°, 100%, 50%` | **The Dot of the "i":** Luminous quantum pulse, focal center |
-| <span style="display:inline-block;width:16px;height:16px;background:#0066FF;border-radius:3px;"></span> | **Electric Cobalt**| `#0066FF` | `0, 102, 255` | `216°, 100%, 50%` | **HexaCore Chassis Base:** Trust, authority, technological prowess |
-| <span style="display:inline-block;width:16px;height:16px;background:#38BDF8;border-radius:3px;"></span> | **Sky Diamond** | `#38BDF8` | `56, 189, 248` | `199°, 92%, 60%` | **Top Facet Highlight:** Secondary interactive accents, tags |
+| <span style="display:inline-block;width:16px;height:16px;background:#0066FF;border-radius:3px;"></span> | **Electric Cobalt**| `#0066FF` | `0, 102, 255` | `216°, 100%, 50%` | **Primary Blue:** Trust, authority, technological prowess |
+| <span style="display:inline-block;width:16px;height:16px;background:#38BDF8;border-radius:3px;"></span> | **Sky Diamond** | `#38BDF8` | `56, 189, 248` | `199°, 92%, 60%` | **Sky Accent:** Secondary interactive accents, tags |
 
 ### Alternate Calibrated Colorways
 - **Solar Amber & Gold (`#FFB703` / `#FFD166`):** Complementary warm power theme for specialized hardware or enterprise tools.

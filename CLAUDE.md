@@ -61,18 +61,18 @@ When tasked with generating a new desktop, web, or mobile application:
 
 ### Step 1: Copy Application Branding Starter
 Use [`apps/template/`](apps/template/) as the foundation:
-- `apps/template/template-master-icon.svg`
-- `apps/template/windows/template.ico`
-- `apps/template/web/favicon.ico`
+- `apps/template/template-master-icon.svg` (edit the `glyph` group; leave the `background` group alone)
+- `apps/template/ios/`, `apps/template/android/`, `apps/template/web/`, `apps/template/windows/`
 
 ### Step 2: Establish the App's Distinct Silhouette
-- Every app must have its own distinctive symbol following the ImadLabs design language (e.g., video streaming for **iTube**, multi-thread accelerator for **Hyper Downloader**).
-- Integrate the signature ImadLabs 45° diamond photon satellite accent into the app's iconography.
+- App icons do **not** use the HexaCore cube. The cube is the company logo only.
+- Every app gets its own bold symbol on the dark rounded tile (e.g., play button for **iTube**, download arrow and tray for **Hyper Downloader**), drawn in the Electric Cobalt gradient and Cyber Mint.
+- Every app icon carries the ImadLabs quantum dot (`#00FFC2` glow with a white core) in the top-right as the brand signature.
 
 ### Step 3: Generate Platform Icons Automatically
-Run the asset export utility to generate all sizes:
+Copy `apps/template/` to `apps/<app_name>/`, rename the master SVG to `<app_name>-master-icon.svg`, edit its `glyph` group, then build every size (iOS, Android, web, Windows, .ico):
 ```bash
-python tools/export_assets.py --input apps/<app_name>/<app_name>-master-icon.svg --output apps/<app_name>/exports
+python tools/build_app_icons.py <app_name>
 ```
 
 ---

@@ -1,6 +1,6 @@
 # ImadLabs — Official Asset Catalog
 
-Total Cataloged Assets: **182 files**  
+Total Cataloged Assets: **267 files**  
 Last Updated: October 2026  
 Status: Verified & Validated  
 
@@ -10,25 +10,109 @@ This catalog provides an exhaustive inventory of all approved graphics, source v
 
 | Category | File Path | Format | Dimensions | Size | Intended Use |
 |---|---|---|---|---|---|
-| **Root** | [`ASSET_CATALOG.md`](ASSET_CATALOG.md) | `MD` | `Vector / Scalable` | 61.4 KB | Official ImadLabs production asset |
+| **Root** | [`ASSET_CATALOG.md`](ASSET_CATALOG.md) | `MD` | `Vector / Scalable` | 33.3 KB | Official ImadLabs production asset |
 | **Root** | [`BRAND_GUIDELINES.md`](BRAND_GUIDELINES.md) | `MD` | `Vector / Scalable` | 7.6 KB | Official ImadLabs production asset |
-| **Root** | [`CHANGELOG.md`](CHANGELOG.md) | `MD` | `Vector / Scalable` | 4.4 KB | Official ImadLabs production asset |
-| **Root** | [`CLAUDE.md`](CLAUDE.md) | `MD` | `Vector / Scalable` | 4.7 KB | Official ImadLabs production asset |
+| **Root** | [`CHANGELOG.md`](CHANGELOG.md) | `MD` | `Vector / Scalable` | 5.0 KB | Official ImadLabs production asset |
+| **Root** | [`CLAUDE.md`](CLAUDE.md) | `MD` | `Vector / Scalable` | 5.0 KB | Official ImadLabs production asset |
 | **Root** | [`DESIGN_SYSTEM.md`](DESIGN_SYSTEM.md) | `MD` | `Vector / Scalable` | 4.7 KB | Official ImadLabs production asset |
 | **Root** | [`README.md`](README.md) | `MD` | `Vector / Scalable` | 12.4 KB | Official ImadLabs production asset |
 | **Root** | [`index.html`](index.html) | `HTML` | `Vector / Scalable` | 85.1 KB | Official ImadLabs production asset |
-| **apps** | [`apps/hyper-downloader/hyper-downloader-1024x1024.png`](apps/hyper-downloader/hyper-downloader-1024x1024.png) | `PNG` | `1024 × 1024` | 51.7 KB | Official ImadLabs production asset |
-| **apps** | [`apps/hyper-downloader/hyper-downloader-master-icon.svg`](apps/hyper-downloader/hyper-downloader-master-icon.svg) | `SVG` | `Vector / Scalable` | 1.0 KB | Master source vector artwork |
-| **apps** | [`apps/hyper-downloader/web/favicon.ico`](apps/hyper-downloader/web/favicon.ico) | `ICO` | `Multi-res (16 to 256)` | 33.4 KB | Multi-resolution Windows / browser favicon |
-| **apps** | [`apps/hyper-downloader/windows/hyper-downloader.ico`](apps/hyper-downloader/windows/hyper-downloader.ico) | `ICO` | `Multi-res (16 to 256)` | 33.4 KB | Official ImadLabs production asset |
-| **apps** | [`apps/itube/itube-1024x1024.png`](apps/itube/itube-1024x1024.png) | `PNG` | `1024 × 1024` | 56.1 KB | Official ImadLabs production asset |
-| **apps** | [`apps/itube/itube-master-icon.svg`](apps/itube/itube-master-icon.svg) | `SVG` | `Vector / Scalable` | 0.9 KB | Master source vector artwork |
-| **apps** | [`apps/itube/web/favicon.ico`](apps/itube/web/favicon.ico) | `ICO` | `Multi-res (16 to 256)` | 33.6 KB | Multi-resolution Windows / browser favicon |
-| **apps** | [`apps/itube/windows/itube.ico`](apps/itube/windows/itube.ico) | `ICO` | `Multi-res (16 to 256)` | 33.6 KB | Official ImadLabs production asset |
-| **apps** | [`apps/template/template-1024x1024.png`](apps/template/template-1024x1024.png) | `PNG` | `1024 × 1024` | 179.2 KB | Official ImadLabs production asset |
-| **apps** | [`apps/template/template-master-icon.svg`](apps/template/template-master-icon.svg) | `SVG` | `Vector / Scalable` | 2.1 KB | Master source vector artwork |
-| **apps** | [`apps/template/web/favicon.ico`](apps/template/web/favicon.ico) | `ICO` | `Multi-res (16 to 256)` | 43.8 KB | Multi-resolution Windows / browser favicon |
-| **apps** | [`apps/template/windows/template.ico`](apps/template/windows/template.ico) | `ICO` | `Multi-res (16 to 256)` | 43.8 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/android/adaptive-background.png`](apps/hyper-downloader/android/adaptive-background.png) | `PNG` | `1024 × 1024` | 374.9 KB | Android adaptive icon background layer |
+| **apps** | [`apps/hyper-downloader/android/adaptive-background.svg`](apps/hyper-downloader/android/adaptive-background.svg) | `SVG` | `Vector / Scalable` | 1.2 KB | Android adaptive icon background layer |
+| **apps** | [`apps/hyper-downloader/android/adaptive-foreground.png`](apps/hyper-downloader/android/adaptive-foreground.png) | `PNG` | `1024 × 1024` | 108.0 KB | Android adaptive icon foreground layer |
+| **apps** | [`apps/hyper-downloader/android/adaptive-foreground.svg`](apps/hyper-downloader/android/adaptive-foreground.svg) | `SVG` | `Vector / Scalable` | 1.8 KB | Android adaptive icon foreground layer |
+| **apps** | [`apps/hyper-downloader/android/icon-144x144.png`](apps/hyper-downloader/android/icon-144x144.png) | `PNG` | `144 × 144` | 14.3 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/android/icon-192x192.png`](apps/hyper-downloader/android/icon-192x192.png) | `PNG` | `192 × 192` | 22.8 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/android/icon-48x48.png`](apps/hyper-downloader/android/icon-48x48.png) | `PNG` | `48 × 48` | 2.9 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/android/icon-72x72.png`](apps/hyper-downloader/android/icon-72x72.png) | `PNG` | `72 × 72` | 5.1 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/android/icon-96x96.png`](apps/hyper-downloader/android/icon-96x96.png) | `PNG` | `96 × 96` | 7.6 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/hyper-downloader-1024x1024.png`](apps/hyper-downloader/hyper-downloader-1024x1024.png) | `PNG` | `1024 × 1024` | 455.0 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/hyper-downloader-master-icon.svg`](apps/hyper-downloader/hyper-downloader-master-icon.svg) | `SVG` | `Vector / Scalable` | 2.0 KB | Master source vector artwork |
+| **apps** | [`apps/hyper-downloader/ios/AppIcon-1024x1024.png`](apps/hyper-downloader/ios/AppIcon-1024x1024.png) | `PNG` | `1024 × 1024` | 391.1 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/hyper-downloader/ios/AppIcon-120x120.png`](apps/hyper-downloader/ios/AppIcon-120x120.png) | `PNG` | `120 × 120` | 8.5 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/hyper-downloader/ios/AppIcon-180x180.png`](apps/hyper-downloader/ios/AppIcon-180x180.png) | `PNG` | `180 × 180` | 16.4 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/hyper-downloader/ios/AppIcon-40x40.png`](apps/hyper-downloader/ios/AppIcon-40x40.png) | `PNG` | `40 × 40` | 1.8 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/hyper-downloader/ios/AppIcon-58x58.png`](apps/hyper-downloader/ios/AppIcon-58x58.png) | `PNG` | `58 × 58` | 2.9 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/hyper-downloader/ios/AppIcon-60x60.png`](apps/hyper-downloader/ios/AppIcon-60x60.png) | `PNG` | `60 × 60` | 3.0 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/hyper-downloader/ios/AppIcon-80x80.png`](apps/hyper-downloader/ios/AppIcon-80x80.png) | `PNG` | `80 × 80` | 4.6 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/hyper-downloader/ios/AppIcon-87x87.png`](apps/hyper-downloader/ios/AppIcon-87x87.png) | `PNG` | `87 × 87` | 5.1 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/hyper-downloader/web/favicon-16x16.png`](apps/hyper-downloader/web/favicon-16x16.png) | `PNG` | `16 × 16` | 0.7 KB | Web browser tab icon |
+| **apps** | [`apps/hyper-downloader/web/favicon-32x32.png`](apps/hyper-downloader/web/favicon-32x32.png) | `PNG` | `32 × 32` | 1.7 KB | Web browser tab icon |
+| **apps** | [`apps/hyper-downloader/web/favicon-48x48.png`](apps/hyper-downloader/web/favicon-48x48.png) | `PNG` | `48 × 48` | 2.9 KB | Web browser tab icon |
+| **apps** | [`apps/hyper-downloader/web/favicon-64x64.png`](apps/hyper-downloader/web/favicon-64x64.png) | `PNG` | `64 × 64` | 4.2 KB | Web browser tab icon |
+| **apps** | [`apps/hyper-downloader/web/favicon.ico`](apps/hyper-downloader/web/favicon.ico) | `ICO` | `Multi-res (16 to 256)` | 58.0 KB | Multi-resolution Windows / browser favicon |
+| **apps** | [`apps/hyper-downloader/web/icon-180x180.png`](apps/hyper-downloader/web/icon-180x180.png) | `PNG` | `180 × 180` | 20.4 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/web/icon-192x192.png`](apps/hyper-downloader/web/icon-192x192.png) | `PNG` | `192 × 192` | 22.8 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/web/icon-512x512.png`](apps/hyper-downloader/web/icon-512x512.png) | `PNG` | `512 × 512` | 110.3 KB | Official ImadLabs production asset |
+| **apps** | [`apps/hyper-downloader/windows/Square150x150Logo.png`](apps/hyper-downloader/windows/Square150x150Logo.png) | `PNG` | `150 × 150` | 15.4 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/hyper-downloader/windows/Square310x310Logo.png`](apps/hyper-downloader/windows/Square310x310Logo.png) | `PNG` | `310 × 310` | 59.4 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/hyper-downloader/windows/Square44x44Logo.png`](apps/hyper-downloader/windows/Square44x44Logo.png) | `PNG` | `44 × 44` | 2.5 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/hyper-downloader/windows/Square71x71Logo.png`](apps/hyper-downloader/windows/Square71x71Logo.png) | `PNG` | `71 × 71` | 4.9 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/hyper-downloader/windows/hyper-downloader.ico`](apps/hyper-downloader/windows/hyper-downloader.ico) | `ICO` | `Multi-res (16 to 256)` | 58.0 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/android/adaptive-background.png`](apps/itube/android/adaptive-background.png) | `PNG` | `1024 × 1024` | 374.9 KB | Android adaptive icon background layer |
+| **apps** | [`apps/itube/android/adaptive-background.svg`](apps/itube/android/adaptive-background.svg) | `SVG` | `Vector / Scalable` | 1.2 KB | Android adaptive icon background layer |
+| **apps** | [`apps/itube/android/adaptive-foreground.png`](apps/itube/android/adaptive-foreground.png) | `PNG` | `1024 × 1024` | 92.0 KB | Android adaptive icon foreground layer |
+| **apps** | [`apps/itube/android/adaptive-foreground.svg`](apps/itube/android/adaptive-foreground.svg) | `SVG` | `Vector / Scalable` | 1.7 KB | Android adaptive icon foreground layer |
+| **apps** | [`apps/itube/android/icon-144x144.png`](apps/itube/android/icon-144x144.png) | `PNG` | `144 × 144` | 14.0 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/android/icon-192x192.png`](apps/itube/android/icon-192x192.png) | `PNG` | `192 × 192` | 22.3 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/android/icon-48x48.png`](apps/itube/android/icon-48x48.png) | `PNG` | `48 × 48` | 2.8 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/android/icon-72x72.png`](apps/itube/android/icon-72x72.png) | `PNG` | `72 × 72` | 4.9 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/android/icon-96x96.png`](apps/itube/android/icon-96x96.png) | `PNG` | `96 × 96` | 7.3 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/ios/AppIcon-1024x1024.png`](apps/itube/ios/AppIcon-1024x1024.png) | `PNG` | `1024 × 1024` | 374.1 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/itube/ios/AppIcon-120x120.png`](apps/itube/ios/AppIcon-120x120.png) | `PNG` | `120 × 120` | 8.1 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/itube/ios/AppIcon-180x180.png`](apps/itube/ios/AppIcon-180x180.png) | `PNG` | `180 × 180` | 15.8 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/itube/ios/AppIcon-40x40.png`](apps/itube/ios/AppIcon-40x40.png) | `PNG` | `40 × 40` | 1.7 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/itube/ios/AppIcon-58x58.png`](apps/itube/ios/AppIcon-58x58.png) | `PNG` | `58 × 58` | 2.7 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/itube/ios/AppIcon-60x60.png`](apps/itube/ios/AppIcon-60x60.png) | `PNG` | `60 × 60` | 2.9 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/itube/ios/AppIcon-80x80.png`](apps/itube/ios/AppIcon-80x80.png) | `PNG` | `80 × 80` | 4.4 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/itube/ios/AppIcon-87x87.png`](apps/itube/ios/AppIcon-87x87.png) | `PNG` | `87 × 87` | 4.9 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/itube/itube-1024x1024.png`](apps/itube/itube-1024x1024.png) | `PNG` | `1024 × 1024` | 430.7 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/itube-master-icon.svg`](apps/itube/itube-master-icon.svg) | `SVG` | `Vector / Scalable` | 1.9 KB | Master source vector artwork |
+| **apps** | [`apps/itube/web/favicon-16x16.png`](apps/itube/web/favicon-16x16.png) | `PNG` | `16 × 16` | 0.6 KB | Web browser tab icon |
+| **apps** | [`apps/itube/web/favicon-32x32.png`](apps/itube/web/favicon-32x32.png) | `PNG` | `32 × 32` | 1.6 KB | Web browser tab icon |
+| **apps** | [`apps/itube/web/favicon-48x48.png`](apps/itube/web/favicon-48x48.png) | `PNG` | `48 × 48` | 2.8 KB | Web browser tab icon |
+| **apps** | [`apps/itube/web/favicon-64x64.png`](apps/itube/web/favicon-64x64.png) | `PNG` | `64 × 64` | 4.1 KB | Web browser tab icon |
+| **apps** | [`apps/itube/web/favicon.ico`](apps/itube/web/favicon.ico) | `ICO` | `Multi-res (16 to 256)` | 56.3 KB | Multi-resolution Windows / browser favicon |
+| **apps** | [`apps/itube/web/icon-180x180.png`](apps/itube/web/icon-180x180.png) | `PNG` | `180 × 180` | 19.9 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/web/icon-192x192.png`](apps/itube/web/icon-192x192.png) | `PNG` | `192 × 192` | 22.3 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/web/icon-512x512.png`](apps/itube/web/icon-512x512.png) | `PNG` | `512 × 512` | 109.0 KB | Official ImadLabs production asset |
+| **apps** | [`apps/itube/windows/Square150x150Logo.png`](apps/itube/windows/Square150x150Logo.png) | `PNG` | `150 × 150` | 15.1 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/itube/windows/Square310x310Logo.png`](apps/itube/windows/Square310x310Logo.png) | `PNG` | `310 × 310` | 59.2 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/itube/windows/Square44x44Logo.png`](apps/itube/windows/Square44x44Logo.png) | `PNG` | `44 × 44` | 2.4 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/itube/windows/Square71x71Logo.png`](apps/itube/windows/Square71x71Logo.png) | `PNG` | `71 × 71` | 4.7 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/itube/windows/itube.ico`](apps/itube/windows/itube.ico) | `ICO` | `Multi-res (16 to 256)` | 56.3 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/android/adaptive-background.png`](apps/template/android/adaptive-background.png) | `PNG` | `1024 × 1024` | 374.9 KB | Android adaptive icon background layer |
+| **apps** | [`apps/template/android/adaptive-background.svg`](apps/template/android/adaptive-background.svg) | `SVG` | `Vector / Scalable` | 1.2 KB | Android adaptive icon background layer |
+| **apps** | [`apps/template/android/adaptive-foreground.png`](apps/template/android/adaptive-foreground.png) | `PNG` | `1024 × 1024` | 74.3 KB | Android adaptive icon foreground layer |
+| **apps** | [`apps/template/android/adaptive-foreground.svg`](apps/template/android/adaptive-foreground.svg) | `SVG` | `Vector / Scalable` | 1.8 KB | Android adaptive icon foreground layer |
+| **apps** | [`apps/template/android/icon-144x144.png`](apps/template/android/icon-144x144.png) | `PNG` | `144 × 144` | 12.8 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/android/icon-192x192.png`](apps/template/android/icon-192x192.png) | `PNG` | `192 × 192` | 20.7 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/android/icon-48x48.png`](apps/template/android/icon-48x48.png) | `PNG` | `48 × 48` | 2.4 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/android/icon-72x72.png`](apps/template/android/icon-72x72.png) | `PNG` | `72 × 72` | 4.3 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/android/icon-96x96.png`](apps/template/android/icon-96x96.png) | `PNG` | `96 × 96` | 6.8 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/ios/AppIcon-1024x1024.png`](apps/template/ios/AppIcon-1024x1024.png) | `PNG` | `1024 × 1024` | 400.6 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/template/ios/AppIcon-120x120.png`](apps/template/ios/AppIcon-120x120.png) | `PNG` | `120 × 120` | 7.4 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/template/ios/AppIcon-180x180.png`](apps/template/ios/AppIcon-180x180.png) | `PNG` | `180 × 180` | 14.4 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/template/ios/AppIcon-40x40.png`](apps/template/ios/AppIcon-40x40.png) | `PNG` | `40 × 40` | 1.4 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/template/ios/AppIcon-58x58.png`](apps/template/ios/AppIcon-58x58.png) | `PNG` | `58 × 58` | 2.3 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/template/ios/AppIcon-60x60.png`](apps/template/ios/AppIcon-60x60.png) | `PNG` | `60 × 60` | 2.5 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/template/ios/AppIcon-80x80.png`](apps/template/ios/AppIcon-80x80.png) | `PNG` | `80 × 80` | 3.9 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/template/ios/AppIcon-87x87.png`](apps/template/ios/AppIcon-87x87.png) | `PNG` | `87 × 87` | 4.4 KB | Apple iOS / macOS application icon asset |
+| **apps** | [`apps/template/template-1024x1024.png`](apps/template/template-1024x1024.png) | `PNG` | `1024 × 1024` | 461.9 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/template-master-icon.svg`](apps/template/template-master-icon.svg) | `SVG` | `Vector / Scalable` | 1.9 KB | Master source vector artwork |
+| **apps** | [`apps/template/web/favicon-16x16.png`](apps/template/web/favicon-16x16.png) | `PNG` | `16 × 16` | 0.6 KB | Web browser tab icon |
+| **apps** | [`apps/template/web/favicon-32x32.png`](apps/template/web/favicon-32x32.png) | `PNG` | `32 × 32` | 1.4 KB | Web browser tab icon |
+| **apps** | [`apps/template/web/favicon-48x48.png`](apps/template/web/favicon-48x48.png) | `PNG` | `48 × 48` | 2.4 KB | Web browser tab icon |
+| **apps** | [`apps/template/web/favicon-64x64.png`](apps/template/web/favicon-64x64.png) | `PNG` | `64 × 64` | 3.6 KB | Web browser tab icon |
+| **apps** | [`apps/template/web/favicon.ico`](apps/template/web/favicon.ico) | `ICO` | `Multi-res (16 to 256)` | 52.3 KB | Multi-resolution Windows / browser favicon |
+| **apps** | [`apps/template/web/icon-180x180.png`](apps/template/web/icon-180x180.png) | `PNG` | `180 × 180` | 18.5 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/web/icon-192x192.png`](apps/template/web/icon-192x192.png) | `PNG` | `192 × 192` | 20.7 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/web/icon-512x512.png`](apps/template/web/icon-512x512.png) | `PNG` | `512 × 512` | 106.1 KB | Official ImadLabs production asset |
+| **apps** | [`apps/template/windows/Square150x150Logo.png`](apps/template/windows/Square150x150Logo.png) | `PNG` | `150 × 150` | 13.9 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/template/windows/Square310x310Logo.png`](apps/template/windows/Square310x310Logo.png) | `PNG` | `310 × 310` | 55.8 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/template/windows/Square44x44Logo.png`](apps/template/windows/Square44x44Logo.png) | `PNG` | `44 × 44` | 2.1 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/template/windows/Square71x71Logo.png`](apps/template/windows/Square71x71Logo.png) | `PNG` | `71 × 71` | 4.2 KB | Windows Start menu and taskbar app tile |
+| **apps** | [`apps/template/windows/template.ico`](apps/template/windows/template.ico) | `ICO` | `Multi-res (16 to 256)` | 52.3 KB | Official ImadLabs production asset |
 | **brand** | [`brand/colors/colors.css`](brand/colors/colors.css) | `CSS` | `Vector / Scalable` | 1.9 KB | Design token definition for developers |
 | **brand** | [`brand/colors/tokens.json`](brand/colors/tokens.json) | `JSON` | `Vector / Scalable` | 3.5 KB | Design token definition for developers |
 | **brand** | [`brand/logos/imadlabs-logo-compact.png`](brand/logos/imadlabs-logo-compact.png) | `PNG` | `480 × 200` | 19.0 KB | Compact toolbar and status bar lockup |
@@ -187,6 +271,7 @@ This catalog provides an exhaustive inventory of all approved graphics, source v
 | **templates** | [`templates/social-posts/telegram-template-promotional.svg`](templates/social-posts/telegram-template-promotional.svg) | `SVG` | `Vector / Scalable` | 5.5 KB | Telegram channel announcement graphic |
 | **templates** | [`templates/social-posts/telegram-template-welcome.svg`](templates/social-posts/telegram-template-welcome.svg) | `SVG` | `Vector / Scalable` | 5.4 KB | Telegram channel announcement graphic |
 | **tools** | [`tools/build_all_graphics.py`](tools/build_all_graphics.py) | `PY` | `Vector / Scalable` | 20.3 KB | Official ImadLabs production asset |
+| **tools** | [`tools/build_app_icons.py`](tools/build_app_icons.py) | `PY` | `Vector / Scalable` | 6.1 KB | Official ImadLabs production asset |
 | **tools** | [`tools/build_asset_catalog.py`](tools/build_asset_catalog.py) | `PY` | `Vector / Scalable` | 4.5 KB | Official ImadLabs production asset |
 | **tools** | [`tools/build_logo_system.py`](tools/build_logo_system.py) | `PY` | `Vector / Scalable` | 18.0 KB | Official ImadLabs production asset |
 | **tools** | [`tools/complete_brand_factory.py`](tools/complete_brand_factory.py) | `PY` | `Vector / Scalable` | 53.3 KB | Official ImadLabs production asset |

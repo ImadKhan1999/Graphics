@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.4.0] - 2026-10-25
+
+### Changed
+- **App icons no longer use the HexaCore cube.** iTube, Hyper Downloader and the app template were redrawn as flat symbols on the dark rounded tile with the ImadLabs quantum dot, so each app can be customised. The cube stays as the company logo.
+- Master icon SVGs now have separate `background` and `glyph` groups.
+- Removed the archived Dynamic Nexus assets and rejected explorations.
+
+### Added
+- `tools/build_app_icons.py` builds iOS, Android (incl. adaptive layers), web and Windows icons from a master SVG. It renders once at 1024px and downscales, so small sizes are no longer cropped.
+
+---
+
 ## [1.3.0] - 2026-10-25
 
 ### Cleanup
